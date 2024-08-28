@@ -16,7 +16,7 @@
 #   något namn som är beskrivande
 #   case sensitive
 #   vissa ord är "förbjudna"
-
+#HEJ!
 
 #Vanligare att skriva variabler med små bokstäver
 
