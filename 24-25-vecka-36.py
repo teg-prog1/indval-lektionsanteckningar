@@ -3,27 +3,19 @@
 # if, else och elif kan användas för att programmet ska göra olika saker beroende på villkor
 
 # om vi till exempel vill skriva ut olika saker beroende på hur stort ett tal är
-#tal = int(input("Säg ett heltal: "))
+tal = int(input("Säg ett heltal: "))
 
-#if tal > 10:
- #   print("Grattis!")
+if tal > 10:
+    print("Grattis!")
 
-#elif tal < 5:
-  #  print("Hurra!")
+elif tal < 5:
+    print("Hurra!")
 
-#elif tal == 7:
- #   print("Hej!")
+elif tal == 7:
+    print("Hej!")
 
-#else:
- #   print("hallå!")
-
-
-
-
-
-
-
-
+else:
+    print("hallå!")
 
 
 
@@ -33,11 +25,6 @@
 # jämförelser kan göras exempelvis med dessa:
 # <=, <, >, >=, ==, !=
     
-
-
-
-
-
 # mindre än eller lika med skrivs med <=, och större än eller lika med tvärtom med >=
 
 # att kolla om något inte är lika med görs med ! innan =
@@ -46,31 +33,19 @@
 # and, or, not
 # vi kan kolla två saker samtidigt
 
-
-#if ålder >= 18 or namn == "Felicia":
-
-
-
-
-
-
+if ålder >= 18 or namn == "Felicia":
+    print("Wohoo")
 
 
 # vi kan ha flera elif om vi vill
 
 
-
 # nästlade if-satser
 # vi kan också ha if-satser i varandra, så kallade nästlade if-satser
 
-#if tal < 3:
-    #if namn == "Therese":
-        #print("Hej")
-
-
-
-
-
+if tal < 3:
+    if namn == "Therese":
+        print("Hej")
 
 
 #########################################################################################################
@@ -78,10 +53,10 @@
 
 # while-loop
 # kan användas när man vill köra en kod flera gånger tills något stoppar den
-# control c
+# control c används för att avbruta en oändlig loop
 
 
-""" kör = True
+kör = True
 tal = 1
 
 while kör:
@@ -90,12 +65,6 @@ while kör:
 
     if svar == "ja":
         kör = False
- """
-
-
-
-
-
 
 
 
