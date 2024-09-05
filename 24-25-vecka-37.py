@@ -49,3 +49,6 @@
 # metoder för sets: https://www.w3schools.com/python/python_sets_methods.asp
 
 # issubset(), intersection(), difference()
+
+
+#KORT OM METODER OCH HUR MAN LÄSER PÅ W3SCHOOLS
