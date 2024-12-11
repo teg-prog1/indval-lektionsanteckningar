@@ -1,0 +1,1 @@
+## Skriv ett program som utifrån en mening kan plocka ut alla ord som har fler än 3 vokaler. 
