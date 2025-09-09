@@ -1,9 +1,9 @@
 # Radbrytningar i program
 
-# Kommentarer, vad är en bra kommentar
-
-# Hur ska en uppgift se ut när ni har gjort den?
-
+# Kommentarer
+# Man kan göra kommentarer i sitt program med hjälp av #
+# Kommentarerna läses inte som kod, utan kan användas för att förklara och göra anteckningar
+# Kommentera gärna varje uppgift med vilken uppgift det är
 
 # Felmeddelanden
 # Exempel:
@@ -11,77 +11,67 @@
 #print(f.read())
 # Lär er att läsa och tolka felmeddelanden, typ av fel, vilken rad
 
-# Övning felmeddelanden
 
-
-# Tips om w3schools, länk finns i lektionsloggen
-
-
-# if
+# if-satser, kan användas för att dela upp vad som ska hända i programmet
 # indentering
-#ålder = int(input("Hur gammal är du? "))
-#if ålder >= 18:
- #   print("Grattis, du är myndig!")
+# När man är "inom" en if-sats så är koden indenterad (flyttad lite till höger)
+# Indenteringen avgör om man är inom if-satsen eller inte
 
-#elif ålder < 7:
-    #print("Du går inte i skolan")
+# Exempel på if-sats med elif och else
+ålder = int(input("Hur gammal är du? "))
+if ålder >= 18:
+    print("Grattis, du är myndig!")
 
-#else:
-  #  print("Hej!")
+elif ålder < 7:
+    print("Du går inte i skolan")
+
+else:
+    print("Hej!")
 
 
 # jämförelser (==,<, >, <=, >=, !=)
+# i if-satser använder vi ofta olika villkor, som till exempel de ovan
+# == betyder lika med
+# < betyder mindre än
+# > betyder större än
+# <= betyder mindre än eller lika med
+# >= betyder större än eller lika med
+# != betyder inte lika med
 
 
-# else
-# elif
+# Exempel med if/elif/else
 
-#if ålder >= 65:
-    #print("Pensionär")
+if ålder >= 65:
+    print("Pensionär")
 
-#elif ålder >= 20:
-    #print("vuxen")
+elif ålder >= 20:
+    print("vuxen")
 
-#elif ålder >= 18:
-  #  print("myndig")
+elif ålder >= 18:
+    print("myndig")
 
-#else:
- #   print("Hej!")
+else:
+    print("Hej!")
 
 
 # Kan man inte ha bara massa if istället för elif?
+# Det beror på vad man vill göra
+# Om man har if så står de för sig själva, det blir en helt ny utvärdering
+# Om man har elif så hör den ihop med if och elif innan
  
 
 
-# pass
-#namn = input("Vad heter du? ")
-#if namn == "Felicia":
- #   print(f"Hej {namn}")
-#else:
- #   pass
-
-
 # booleans
-#kör_programmet = True
-#glatt_humör = False
-
-#if kör_programmet == True:
- #   print("hej")
-
-#if kör_programmet:
- #   print("hej")
-
-#mående = input("Hur mår du? ")
-#if mående == "bra":
- #   print("Hurra!")
+# en datatyp som är antingen sann eller falsk
+kör_programmet = True
+glatt_humör = False
 
 
-# bool == True
+if kör_programmet:
+    print("hej")
 
-# jämförelser blir booleans
-
-# and, or, not (inte xor)
-# prioriteringsregler med and/or
+# and, or, not kan användas för att utvärdera flera villkor
+# prioriteringsregler med and/or, använd parenteser för att få det rätt!
 
 tal1 = 10
 tal2 = 8
